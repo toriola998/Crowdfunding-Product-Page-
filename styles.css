@@ -53,7 +53,9 @@ p {
 }
 
 .mastercraft h1,
-.mastercraft p {
+.mastercraft p,
+.numbers h1,
+.numbers p {
     text-align: center;
 }
 
@@ -79,4 +81,31 @@ button {
     font-size: 16px;
     margin-right: 1rem;
     font-family: 'Commissioner', sans-serif;
+}
+
+.numbers {
+    background-color: #fff;
+    margin-top: 2rem;
+    border-radius: 7px;
+    padding: 2rem;
+}
+
+.numbers div {
+    margin-bottom: 2rem;
+}
+
+.line {
+    background-color: #cccccc;
+    height: 1px;
+    width: 5rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.numbers h1 {
+    font-size: 1.8rem;
+}
+
+.numbers p {
+    margin: .6rem auto 1.5rem;
 }
