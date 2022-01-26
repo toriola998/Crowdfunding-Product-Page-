@@ -50,6 +50,7 @@ main,
 p {
     font-size: 15px;
     color: grey; 
+    line-height: 1.5;
 }
 
 .mastercraft h1,
@@ -108,4 +109,51 @@ button {
 
 .numbers p {
     margin: .6rem auto 1.5rem;
+}
+
+#about {
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-top: 2rem;
+}
+
+#about h2 {
+    font-size: 1.2rem;
+}
+
+.notes {
+    padding-top: 1rem;
+}
+
+.reward {
+    border: 1px solid #cccccc;
+    border-radius: 7px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.cyan {
+    color: hsl(176, 50%, 47%);
+    margin-top: .5rem;
+}
+
+.member {
+    margin: 1.2rem 0;
+}
+
+.reward-h2 {
+    font-size: 2rem !important;
+    margin-bottom: 1.8rem;
+}
+
+sup {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: .5rem;
+    color: grey;
 }
