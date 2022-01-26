@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-image: url("./images/image-hero-mobile.jpg");
+    background-color: #cccccc; 
+    height: 300px;
+    background-position: center;
+    background-size: cover; 
+}
+
+.nav-top {
+    height: 4rem;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
