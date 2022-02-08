@@ -84,6 +84,10 @@ button {
     font-family: 'Commissioner', sans-serif;
 }
 
+.green-btn:hover {
+   background-color: hsl(176, 72%, 28%);
+}
+
 .numbers {
     background-color: #fff;
     margin-top: 2rem;
