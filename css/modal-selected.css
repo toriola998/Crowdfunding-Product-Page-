@@ -1,0 +1,16 @@
+.selection-modal {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 9px;
+}
+
+.back {
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.back p {
+    font-size: 1.1rem;
+    color: #000;
+}
