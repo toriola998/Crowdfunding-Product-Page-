@@ -165,3 +165,22 @@ sup {
 .grey-btn {
     background-color: hsl(0, 0%, 48%);
 }
+
+
+@media screen and (min-width: 500px) {
+    .mastercraft,
+    .numbers,
+    #about {
+        width: 70%;
+    }
+
+    .mastercraft {
+        margin: -2rem auto 0;
+    }
+
+    .numbers,
+    #about {
+        margin: 2rem auto 0;
+    }
+
+}
