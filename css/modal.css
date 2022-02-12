@@ -31,11 +31,11 @@
     margin-top: 0.2rem;
 }
 
-.selection-modal .reward input {
+.selection-modal .reward input[type=checkbox] {
     margin-right: 2rem;
 }
 
-.selection-modal .reward .flex {
+.selection-modal .reward > .flex {
     margin-bottom: 1.7rem;
 }
 
@@ -43,3 +43,35 @@
     font-size: 1.5rem !important;
     margin: 2rem 0 1.5rem;
 }
+
+/* SELECTED MODAL (STYLING) */
+.hr-line {
+    height: 1px;
+    width: auto;
+    margin: 1.5rem 0;
+    background-color: #ccc;
+}
+
+.select {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.input-wrap {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+}
+
+.input-wrap input {
+    outline: none;
+    border: none;
+    height: inherit;
+    width: 100%;
+}
+
+.selected .green-btn {
+    margin-left: 1rem;
+    margin-right: unset;
+}
+
