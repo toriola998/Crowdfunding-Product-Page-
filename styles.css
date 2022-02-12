@@ -182,5 +182,40 @@ sup {
     #about {
         margin: 2rem auto 0;
     }
+}
 
+@media screen and (min-width: 700px) {
+    header {
+        background-image: url("./images/image-hero-desktop.jpg");
+    }
+
+    .mastercraft {
+        margin: -3rem auto 0;
+    }
+
+    .mastercraft > .flex {
+        justify-content: space-between;
+    }
+
+    .numbers,
+    .reward > div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reward > div {
+        align-items: center;
+    }
+
+    .reward .cyan {
+        margin-top: unset;
+    }
+
+    .reward-h2 {
+        margin-bottom: unset;
+    }
+
+    .member {
+        margin: 1.5rem 0;
+    }
 }
