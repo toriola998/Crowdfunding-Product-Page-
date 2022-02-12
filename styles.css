@@ -219,3 +219,19 @@ sup {
         margin: 1.5rem 0;
     }
 }
+
+@media screen and (min-width: 900px) {
+    .mastercraft,
+    .numbers,
+    #about {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .mastercraft,
+    .numbers,
+    #about {
+        width: 50%;
+    }
+}
