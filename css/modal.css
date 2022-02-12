@@ -16,7 +16,7 @@
 }
 
 .no-reward {
-    margin-bottom: 1.3rem;
+    margin-bottom: 1.7rem;
 }
 
 .no-reward input{
@@ -25,4 +25,21 @@
 
 .no-reward p {
     color: #000;
+}
+
+.selection-modal .cyan {
+    margin-top: 0.2rem;
+}
+
+.selection-modal .reward input {
+    margin-right: 2rem;
+}
+
+.selection-modal .reward .flex {
+    margin-bottom: 1.7rem;
+}
+
+.selection-modal .reward-h2 {
+    font-size: 1.5rem !important;
+    margin: 2rem 0 1.5rem;
 }
